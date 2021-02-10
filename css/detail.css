@@ -1,0 +1,137 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+img{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+#search{
+    height: 30px;
+    margin: 15px;
+ }
+ #nav h1{
+     font-size: 50px;
+     margin-top: 8px;
+     color: blanchedalmond;
+ }
+ #nav::before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -10px;
+    z-index: -1;
+    opacity: 0.7;
+ } 
+
+
+ /*...................................................................................*/
+
+ #det h1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 50px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ #det .fill{
+     display: flex;
+     font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     flex-direction: column;
+     border: 2px solid black;
+     width: 700px;
+     padding: 20px;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     border-radius: 50px;
+     margin-top: 100px;
+     background-color: rgb(107, 93, 93);
+     color: wheat;
+ }
+ .go{
+     margin: 20px;
+ }
+ #all::before{
+    content: "";
+    background-image: linear-gradient( red ,rgb(226, 141, 44),yellow);
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+ }
+ h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ #coment h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 100px;
+ }
+.just input{
+     height: 30px;
+     width: 500px;
+     border-bottom: 2px solid black;
+     font-size: 20px;
+     margin: 8px;
+  
+ }
+ #btn{
+     margin: 30px;
+     height: 30px;
+     width: 100px;
+     background-color: palegoldenrod;
+ }
+ #btn2{
+    margin: 30px;
+    height: 30px;
+    width: 100px;
+     background-color: palegreen;
+ }
+h3{
+    margin: 50px;
+}
+.im img{
+ 
+    height: 50px;
+    width: 50px;
+   margin: -15px;
+}
+.im{
+    margin: 50px;
+    display: flex;
+}
+h5{
+    margin: 20px;
+}
+.kop{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 5px;
+}
+p{
+    margin-left: 20px;
+}
+bttton{
+    color: black;
+}
+span{
+    size: 50px;
+}
