@@ -12,5 +12,3 @@ if (!$con) {
 // echo("Successfully Connect");
 
 ?>
-
-<!-- domen name = http://lamda.ezyro.com/new%20data/htmlall/start.html -->
